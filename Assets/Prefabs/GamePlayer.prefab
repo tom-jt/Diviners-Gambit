@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7652751897232000736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7652751897232000741}
+  - component: {fileID: 7652751897232000738}
+  - component: {fileID: -781487775863630127}
+  - component: {fileID: 7500133440502196054}
+  m_Layer: 0
+  m_Name: GamePlayer
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7652751897232000741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7652751897232000736}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7652751897232000738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7652751897232000736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: 3e5e5f4246ea1bf4d93904ef2c1ed16f
+  hasSpawned: 0
+--- !u!114 &-781487775863630127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7652751897232000736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bfa76886d98d834aa7773eb18fc21c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0
+  cardPrefab: {fileID: 8148868082126140264, guid: 728e4aa18b8f03f4abd8dc2f215dd0fd, type: 3}
+  divinerCardPrefab: {fileID: 19854068400705184, guid: db9ee18d576cae34d8069704c3241319, type: 3}
+  myProfile: {fileID: 7500133440502196054}
+  sfxDraw: {fileID: 8300000, guid: e96651e3cde19fb43aaba0034892e2e6, type: 3}
+  sfxFlip: {fileID: 8300000, guid: 122a7a936d3070b4eaf4b5a39d9e1ea6, type: 3}
+  sfxDeath: {fileID: 8300000, guid: 4c27d398780a3214b84eabd50641bb5f, type: 3}
+  sfxBeginTarget: {fileID: 8300000, guid: 0df20ac6ab02b4447bf1ed352fe4ea18, type: 3}
+  sfxChosenTarget: {fileID: 8300000, guid: a284e7243b75f5a40a4e7a255a334285, type: 3}
+  sfxPlace: {fileID: 8300000, guid: 4b277ac321d1e1443a9c3b9e11022b7a, type: 3}
+--- !u!114 &7500133440502196054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7652751897232000736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e78196cf3e84b14d94b78177bf2272d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0
+  isHost: 0
+  status: 1
+  playedCard: {fileID: 0}
+  statusEffects: []
+  isInvincible: 0
+  isTargetable: 1
+  canUseEffects: 1
+  damageTakenOffset: 0
+  damageDealtoffset: 0
+  healthGainedOffset: 0
+  manaGainedOffset: 0
+  manaCostOffset: 0
+  id: -1
+  icon: -1
+  userName: 
+  health: -1
+  mana: -1
+  chosenDivinerID: -1

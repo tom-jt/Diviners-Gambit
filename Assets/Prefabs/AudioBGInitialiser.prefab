@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8494782320040936101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9190349500393224606}
+  - component: {fileID: 9049467875876820011}
+  m_Layer: 0
+  m_Name: AudioBGInitialiser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9190349500393224606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8494782320040936101}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 198.39264, y: 118.16475, z: -0.22401059}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9049467875876820011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8494782320040936101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfdd1e081179384bb8fc7ad3633bf7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  themes:
+  - {fileID: 11400000, guid: 557389b3850abd14ab65b9952b91ee93, type: 2}
+  - {fileID: 11400000, guid: 68f49e8344b3ac34ca6b08a036c366e2, type: 2}
+  - {fileID: 11400000, guid: 758cc960720a51542978de762e83a2dd, type: 2}
+  - {fileID: 11400000, guid: b9db40e0be3bcb049add0378c10d16b2, type: 2}
+  - {fileID: 11400000, guid: 2b3d3c7ddacfdea4aaa58bc650217a52, type: 2}
+  - {fileID: 11400000, guid: ecdb1c66c5cdb514b9d0f007a2d07ac8, type: 2}
+  - {fileID: 11400000, guid: 117e67f3091454f4dbaccfd42ef9098f, type: 2}
+  - {fileID: 11400000, guid: da0831da4eb014b40966db4817417010, type: 2}
+  - {fileID: 11400000, guid: 3661431204cecac4eb419526d3098f22, type: 2}
+  background: {fileID: 0}
+  isGameScene: 0
+  sfxButtonPress: {fileID: 8300000, guid: f5c9a54a0a82af34793fb2e8c44309a8, type: 3}
+  sfxToggleOn: {fileID: 8300000, guid: f5c9a54a0a82af34793fb2e8c44309a8, type: 3}
+  sfxToggleOff: {fileID: 8300000, guid: f5c9a54a0a82af34793fb2e8c44309a8, type: 3}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9552c508b8f44fd42a631d8eacd93020, type: 3}
+  m_Name: Autumn
+  m_EditorClassIdentifier: 
+  bgStart: {fileID: 21300000, guid: 050eda20089bd2245b05e838f302292d, type: 3}
+  bgmStart: {fileID: 8300000, guid: 8c780abd4b0df694e8c0a5cd338e55ff, type: 3}
+  bgGame: {fileID: 21300000, guid: 2e160b2b9a085524a99affb2787c6488, type: 3}
+  bgmGame: {fileID: 8300000, guid: e116e463a7278f849a971f96737fa80e, type: 3}
